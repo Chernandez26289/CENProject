@@ -1,0 +1,24 @@
+body{
+    background-color: lightgoldenrodyellow;
+}
+#maintitle{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4vh;
+    position: relative;
+    text-align: center;
+    border-style: groove;
+    
+}
+#money{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+header{
+    position: relative;
+    text-align: center;
+    font-size: 2vh;
+    word-spacing: 10px;
+    margin-top: 7px;
+}
