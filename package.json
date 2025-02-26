@@ -1,0 +1,26 @@
+{
+  "name": "cenproject",
+  "version": "1.0.0",
+  "description": " Student Shop Squad will be a website that allows students to sell and purchase academic materials relevant to their courses.  ",
+  "main": "app.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "start:dev": "nodemon ./src/app.mjs", 
+    "start": "node ./src/app.mjs" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chernandez26289/CENProject.git"
+  },
+  "author": "Carson Hernandez, Anthony Franzino, Elijah Lowe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chernandez26289/CENProject/issues"
+  },
+  "homepage": "https://github.com/Chernandez26289/CENProject#readme",
+  "keywords": [],
+  "dependencies": {
+    "express": "^4.21.2"
+  }, 
+  "type": "module"
+}
