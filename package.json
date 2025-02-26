@@ -4,9 +4,9 @@
   "description": " Student Shop Squad will be a website that allows students to sell and purchase academic materials relevant to their courses.  ",
   "main": "app.mjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1", 
-    "start:dev": "nodemon ./src/app.mjs", 
-    "start": "node ./src/app.mjs" 
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon ./src/app.mjs",
+    "start": "node ./src/app.mjs"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,10 @@
   "homepage": "https://github.com/Chernandez26289/CENProject#readme",
   "keywords": [],
   "dependencies": {
-    "express": "^4.21.2"
-  }, 
+    "bcrypt": "^5.1.1",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "mysql2": "^3.12.0"
+  },
   "type": "module"
 }
