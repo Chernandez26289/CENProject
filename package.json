@@ -2,10 +2,10 @@
   "name": "cenproject",
   "version": "1.0.0",
   "description": " Student Shop Squad will be a website that allows students to sell and purchase academic materials relevant to their courses.  ",
-  "main": "app.mjs",
+  "main": "/src/app.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start:dev": "nodemon ./src/app.mjs",
+    "start:dev": "node ./src/app.mjs",
     "start": "node ./src/app.mjs"
   },
   "repository": {
